@@ -9,7 +9,7 @@ export default function Home() {
         </h3>
         <hr />
       </div>
-      <div className="grid grid-cols-2 gap-4 mt-4">
+      <div className="grid grid-rows-3 xl:grid-cols-2 gap-4">
         <div>
           <label
             htmlFor="name"
@@ -88,7 +88,7 @@ export default function Home() {
         </h3>
       </div>
       <hr />
-      <div className="grid grid-cols-2 gap-4 mt-4">
+      <div className="grid grid-row-4 xl:grid-cols-2 gap-4 mt-4">
         {/* Empresa 1 */}
         <div className="flex flex-col gap-4">
           <div>
